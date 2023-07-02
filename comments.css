@@ -1,0 +1,144 @@
+/* Add this styles to your theme or plugin*/
+/* comments style */
+.comments ul,
+.comments ol {
+  padding: 0;
+}
+.comments h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.comments .comment-respond {
+  position: relative;
+  border-top: 3px solid #cccccc;
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.comments .comment-respond a#cancel-comment-reply-link {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  color: red;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.comments .comment-respond .comment-form-comment {
+  width: 100%;
+  margin-bottom: 0;
+}
+.comments .comment-respond .comment-reply-title {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.comments .comment-respond p {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #888888;
+}
+.comments .comment-respond a {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #0057d9;
+  text-decoration: underline;
+}
+.comments .comment-respond textarea {
+  width: calc(100% - 2rem);
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  padding: 8px;
+  margin: 0 1rem;
+  height: 110px;
+}
+.comments .comment-respond .comment-form {
+  width: 100%;
+}
+.comments .comment-respond .comment-form-author,
+.comments .comment-respond .comment-form-email {
+  display: inline;
+  float: right;
+}
+.comments .comment-respond .comment-form-author,
+.comments .comment-respond .comment-form-email,
+.comments .comment-respond .comment-form-url {
+  width: calc(50% - 2rem);
+  margin: 0 1rem;
+}
+.comments .comment-respond input#author,
+.comments .comment-respond input#email,
+.comments .comment-respond input#url {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  padding: 8px;
+  height: 36px;
+}
+.comments .comment-respond .comment-form-cookies-consent {
+  margin: 1rem 1rem 0;
+  display: block;
+  float: right;
+  width: calc(100% - 2rem);
+}
+
+.comments .comment-respond .form-submit .submit {
+  display: block;
+  margin: 1rem auto 0 1rem;
+  text-align: center;
+  padding: 0.3rem 2rem;
+  background-color: #0057d9;
+  border: 1px solid #0057d9;
+  color: #fff;
+  border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+  .comments .comment-respond .comment-form-author,
+  .comments .comment-respond .comment-form-email,
+  .comments .comment-respond .comment-form-url {
+    width: calc(100% - 2rem);
+    margin: 0 1rem;
+  }
+  .comments .comment-respond .comment-form-cookies-consent,
+  .comments .comment-respond .comment-form-author,
+  .comments .comment-respond .comment-form-email {
+    display: block;
+    float: none;
+  }
+}
+
+/* comments list */
+.comments .commentlist .comment {
+  padding: 1rem 1rem 0 0;
+}
+.comments .commentlist .comment,
+.comments .commentlist footer {
+  box-shadow: none;
+  margin: 0;
+}
+.comments .commentlist .comment-body {
+  position: relative;
+  padding: 1rem;
+  border-radius: 6px;
+  border: 1px solid #cccccc;
+  border-right: 3px solid #cccccc;
+}
+.comments .commentlist .comment-body .reply {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.comments .commentlist .comment-body .reply a {
+  color: #0057d9;
+}
+.comments .commentlist .comment-body .comment-metadata {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  font-size: 0.9rem;
+}
+.comments .commentlist .comment-body .comment-content {
+  margin-top: 0.5rem;
+}
